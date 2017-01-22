@@ -1,0 +1,38 @@
+Color, Simply.
+
+AARON began over thirty years ago as research directed to a deeper
+understanding of how we make and read images, beyond what twenty years as a
+professional artist had revealed.  AARON was an <i>expert system</i> drawing
+program that exhibited a distinctive <i>art personality;</i> the
+program--not just its output--was widely exhibited during its first ten
+years.  Of the many thousands of original drawings it generated, some were
+colored by hand and a few turned into paintings.  The problem of having a
+sightless program control something as fundamentally visual as color
+appeared intractable; in the mid-eighties, the first rule-based version
+showed it might be possible.  Twenty years later, AARON is a world-class
+colorist.
+
+This talk provides some background on the technology of color control, and
+presents an overview of how the program's expertise developed, resting
+finally upon a change from the implicit representation of knowledge in the
+rules provided by the author, to an explicit representation in structures
+made available to the program itself.  That change has made it possible to
+replace the program's extensive rule-base with a remarkably simple algorithm
+that not only performs as well as the previous versions, but commands a much
+wider range of coloring strategies.
+
+Harold Cohen
+
+Harold Cohen grew up in London, where he studied painting at the Slade
+School of Fine Art.  In the 1960s he exhibited widely, representing the UK
+in the Venice Bienalle in 1966, documenta-5 in Germany and in museums and
+exhibitions around the world.  In 1968 he went to California for a one-year
+visiting professorship at UC San Diego, met his first computer and never
+returned to London.  From 1972-74 he was a visiting scholar at the Stanford
+AI Lab, and began work on AARON.  AARON/HC have exhibited at the Tate
+Gallery in London, the Brooklyn Museum, the San Francisco Museum of Modern
+Art, Boston's Computer Museum and many other venues, including Tsukuba,
+Japan, representing the US in the 1986 World Fair.  Cohen was founding
+director of the Center for Research in Computing and the Arts at UCSD.  He
+retired from teaching in 1995, and continues work on AARON at his home near
+San Diego.

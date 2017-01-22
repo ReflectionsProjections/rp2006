@@ -1,0 +1,46 @@
+Note: <i>...</i> indicates italics.  Below, I want the a and the t in da/dt
+to be set in italics (to indicate that they are variables).
+
+
+
+A Newton's-Method Formulation of the Reconnaissance-Satellite
+Maneuver-Duration Problem
+
+Reconnaissance satellites often have large, light weight, relatively
+flexible structures, and limited maneuvering energy.  They are therefore
+subject to relatively modest dynamic limits--maximum angular velocities,
+accelerations, and <i>jerks</i> (d<i>a</i>/d<i>t</i>).  Maneuvering a satellite
+to point its sensors at a sequence of targets cannot be modeled accurately
+without accounting for these limits.  The duration of such a maneuver is not
+readily computable in closed form, because the vehicle's travel affects the
+necessary rotation.  Assuming a planar rotation maneuver enables
+constructing an iterative algorithm to resolve these coupled quantities. 
+Combining vector calculus and simple physics in a Newton's method
+formulation, this algorithm is implemented in 100 lines of C++, and can
+compute 80,000 maneuver-times per second on current PCs.  Millions of such
+computations are required when analyzing and generating collection
+schedules.
+
+The <i>slew model</i> described is embedded in SAIC's Integrated
+Intelligence Systems Simulator (IISYS), used to perform analysis for the
+National Reconnaissance Office.  The NRO is the U.S. Government's executive
+agency for space-based reconnaissance; Science Applications International
+Corporation is an employee-owned professional-services firm of about 43,000
+people, with annual sales approaching $8 billion.
+
+Chip Mayse
+
+Dr. "Chip" (William C.) Mayse is in his second career, having previously
+been an aerospace propulsion systems engineer.  Originally from Indiana and
+educated (BSME, MSME) at Purdue, he served in the Air Force; studied systems
+management (MS) at the University of Southern California; theology (MA) at
+Fuller Seminary (Pasadena, CA); and was a thermal-analysis engineer at
+Rocket Research Company (now Aerojet-Redmond) before switching to CS.  Since
+leaving UIUC (Ph.D. '92), he has worked in Northern Virginia, mainly on
+high-performance visualization and systems analysis software.  This includes
+PowerScene: an early terrain scene-generator; a large, fast graph
+data-mining system for the Dept. of Justice; the FIA Architecture and
+Scheduler Testbed (FAST): a high-fidelity satellite-constellation simulator
+for Boeing; and currently, IISYS and COSMOS.  For its contributions to
+Operation Deliberate Force and the Dayton Peace Conference, PowerScene
+received a Technology Laurels Award (1995) from Aviation Week Magazine.

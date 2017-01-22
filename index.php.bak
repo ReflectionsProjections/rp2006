@@ -1,0 +1,52 @@
+<?php include '_constants.php'; ?>
+<?php
+	$thispage = "index";
+        include '_constants.php';
+	include '_top.php';
+?>
+
+<div id="image_strip">
+<center><img src="images/topstrip1.jpg" border=0></center>
+</div>
+
+<div id="content">
+
+<p><font size="+2">Reflections | Projections <?php print $rp_year; ?></font></p>
+
+<p>
+The Association for Computing Machinery at the University of Illinois is
+hosting its <?php echo $rp_number; ?> annual student computing conference on
+<?php echo $rp_date; ?>. Registration for the conference is open to all
+parties interested in cutting-edge computing technology. No university or
+ACM affiliation is necessary.
+</p>
+
+<p>
+<?php echo $rp_name; ?> brings together students from across the country to
+gain a broader perspective on computer science. The conference is a unique
+opportunity for attendees to enrich their knowledge of cutting-edge
+concepts from beyond the classroom. The associated job fair provides a
+convenient venue to meet representatives from a wide variety of employers
+interested in computer science, MIS and electrical and computer engineering
+students. All in all, <?php echo $rp_name; ?> is a great weekend of
+learning, fun and excitement.
+</p>
+
+<p>
+<!--
+Please visit the <a href="register_attend.php">
+attendee registration page</a> to sign up for the conference.  Other
+types of registration, including <a href="mechmania.php">MechMania</a>
+teams and <a href="jobfair.php">corporate sponsors</a> are also
+available from the <a href="register.php">registration page</a>.
+-->
+<br/><br/>
+</p>
+
+<!--<p>Last Year's Sponsors:</p>-->
+
+<?php //include '_sponsor.php'; ?>
+
+</div>
+
+<?php include '_bottom.php'; ?>

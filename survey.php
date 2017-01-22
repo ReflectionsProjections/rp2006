@@ -1,0 +1,110 @@
+<?php
+
+$thispage = "survey";
+$title = "Survey";
+require 'includes/_top.php';
+require 'includes/database.php';
+$conn = new MySqlConnection($rp_db_host, $rp_db_user, $rp_db_pwd, $rp_db_database);
+require '_survey.php';
+echo '<div id="content">';
+
+if (isset($_POST['submit'])) {
+	submit_survey();
+	echo '<b>Thank you for filling out the Reflections Projections 2006 attendee feedback survey!</b>';
+} else {
+	$range_1_10 = array("", "10 (best)", 9, 8, 7, 6, 5, 4, 3, 2, "1 (worst)");
+
+	echo '<p><font size="+2">Attendee Feedback Survey</font></p>';
+
+	start_form();
+
+		survey_section("Thank you for attending Reflections
+			Projections 2006.  We would appreciate it if you
+			could take a few minutes to respond to the following
+			questions.  Feel free to skip any questions you
+			don't feel like answering.");
+
+		survey_section("General Questions");
+		# question's unique identifier, question text
+		short_question("hear_about", "How did you hear about the conference?");
+		# question's unique identifier, question text, array of possible responses
+		multi_question("overall_value", "How would you rate the
+			overall value of the conference given the time and
+			money you spent to attend? (1-10, where 10 is
+			best)", $range_1_10);
+		multi_question("attend_next_year", "Would you like to attend
+			Reflections Projections 2007 next year?", array("",
+			"yes", "no", "maybe"));
+		short_question("attend_next_why", "Why or why not?");
+		#short_question("email", "Please enter your e-mail address if
+		#	you'd like us to send you a reminder about
+		#	Reflections Projections 2007.");
+
+		survey_section("Now let's get on to some more specific
+			questions.  (When you're done, go to the bottom of
+			the page and click submit.)");
+
+		survey_section("Attendance");
+		short_question("which_days", "Which days did you attend the
+			conference (Fri, Sat, Sun), and in particular which
+			talks did you attend?");
+		short_question("which_days_why", "If you did not attend
+			certain days or times or at all, why not?");
+
+		survey_section("Speakers");
+		short_question("speakers_liked", "Which speakers did you like?   
+		        (<a href=\"http://www.acm.uiuc.edu/conference/speakers.php\">speaker list</a>)");
+		short_question("speakers_disliked", "Which speakers did you not like?");
+
+		survey_section("The following questions discuss what topics
+			you would like to hear about in future conferences. 
+			Please rate from 1&ndash;10 how interested you are
+			in each topic, where 10 is most interested.");
+		multi_question_before("algo_theory_cs", "Algorithms, theory and academic computer science", $range_1_10);
+		multi_question_before("hw_ee_bio", "Hardware, electronics and bioengineering", $range_1_10);
+		multi_question_before("sec_legal", "Security and legal issues", $range_1_10);
+		multi_question_before("sw_dev_biz", "Professional software development and computer business", $range_1_10);
+		multi_question_before("fun", "Just for fun, humor and tech culture", $range_1_10);
+		short_question("other_topics", "Any other topics you may be interested in:");
+		short_question("speaker_req", "Are there any particular speakers who you would like to see next year?");
+
+		survey_section("Food (please skip if you did not purchase food)");
+		survey_section("Please rate the food on a scale of 1-10 (where 10 is the best):");
+		multi_question_before("food_quality", "Quality", $range_1_10);
+		multi_question_before("food_quantity", "Quantity", $range_1_10);
+		multi_question_before("food_service", "Service", $range_1_10);
+		multi_question_before("food_value", "Value", $range_1_10);
+		short_question("food_comment", "Additional comments on food:");
+
+		survey_section("Schedule");
+		survey_section("How did you like the schedule during the conference?");
+		multi_question("start_end_time", "Starting time/ending time?", array("", "just right", "too early", "too late"));
+		multi_question("num_days", "Number of days?", array("", "just right", "too many", "too few"));
+	//	multi_question("talk_duration", "Duration of talks?", array("", "just right", "too long", "too short"));
+	//	multi_question("break_duration", "Time in between talks?", array("", "just right", "too long", "too short"));
+		multi_question("rooms", "How were the presentation rooms?", array("", "just right", "too big", "too small"));
+		multi_question("parallel_talks", "Did you like having talks in parallel?", array("", "yes, something interesting in each time slot", "no, too many conflicts between equally interesting talks"));
+		short_question("schedule_comments", "Additional comments on the schedule:");
+
+		survey_section("Travel");
+		short_question("when_plan_trip", "When does your chapter/do you start organizing your conference trip?");
+		short_question("travel_trouble", "Did you have any trouble with travel or accomodations which we could help improve next year?");
+
+		survey_section("Technology infrastructure");
+		short_question("website", "Comments on the website:");
+		short_question("wireless", "Comments on the wireless networking and usage of laptops by attendees at the conference:");
+
+		survey_section("Additional events");
+		short_question("puzzlecrack", "Comments on PuzzleCrack:");
+		short_question("mechmania", "Comments on MechMania:");
+		short_question("jobfair", "Comments on the Job Fair:");
+		short_question("other_activities", "Recommendations for other activities at next year's conference:");
+
+		survey_section("Alright, that's it.  Thanks for taking the
+			time to respond to our survey!");
+	end_form();
+}
+
+echo '</div>';
+include 'includes/_bottom.php';
+?>

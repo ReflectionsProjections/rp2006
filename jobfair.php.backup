@@ -1,0 +1,133 @@
+<?php include '_constants.php'; ?>
+<?php
+	$thispage = "jobfair";
+	$title = "Job Fair";
+	include '_top.php';
+?>
+
+<div id="image_strip">
+<center><img src="images/topstrip5.jpg" border=0></center>
+</div>
+
+<div id="content">
+
+<p>
+
+The <?php echo $rp_name; ?> <?php echo $rp_year;?> Job Fair will be held
+from 9:00 AM to 4:00 PM on <?php echo $rp_jobfair_date;?> at the University
+of Illinois at Urbana-Champaign campus in the new <a href =
+"http://www.cs.uiuc.edu/" class = "external">Thomas M. Siebel
+Center for Computer Science</a>. This job fair, held annually for the
+past ten years, is the premier job fair for finding computer science
+and computer engineering students for internships and
+full-time/part-time employment.  Not only will participation guarantee
+you access to the best and brightest students at the University of
+Illinois, but it also will provide access to other students from
+schools all around the nation who arrive for the weekend to attend the
+job fair and the associated conference. Last year alone, attendance at
+this job fair was estimated at 500 students, of which the vast
+majority were students in Computer Science, MIS, and
+Electrical/Computer Engineering disciplines.
+
+</p>
+
+<p>
+Companies interested in more information can contact us at <a
+href="mailto:<?php echo $rp_chair_email; ?>"><?php echo $rp_chair_email; ?></a>
+</p>
+<!--
+<p></p>
+
+<b>Students,</b> be sure to <a href= "register_attend.php">sign up now</a> and submit
+your resume online.
+
+<p></p>
+
+<b>Employers,</b> to register for the Keystone or Foundation Sponsorship, visit our
+<a href = "register_jobfair.php">Job Fair and Sponsorship</a> page. 
+
+Please contact <a href="mailto:reflections@acm.uiuc.edu">reflections@acm.uiuc.edu</a>
+for information about the job fair, sponsorship, and general
+conference details. 
+
+<p></p>
+
+The following companies will be recruiting for full-time/part-time
+jobs and interships, especially in the computing disciplines.
+
+<p></p>
+
+<div class="section_title">Job Fair Participants:</div>
+<p></p>
+
+<center>
+<a href="http://www.microsoft.com"><img src="images/sponsor_microsoft.jpg" border="0" valign=middle></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.adm.org"><img src="images/sponsor_adm.jpg" border="0" valign=middle></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.xanga.com"><img src="images/sponsor_xanga.gif" border="0" valign=middle></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.volition-inc.com"><img src="images/sponsor_volition.jpg" border="0" valign=middle></a>
+</center>
+
+<p></p>
+<p></p>
+
+<table width=100%>
+<tr><td><b><font size = "2.5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.abbott.com/" class="external">Abbott Laboratories</a></font></b></td></tr>
+<tr><td><b><font size = "2.5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.allstate.com/" class="external">Allstate Insurance</a></font></b></td></tr>
+<tr><td><b><font size = "2.5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.anl.gov/" class="external">Argonne National Laboratory</a></font></b></td></tr>
+<tr><td><b><font size = "2.5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.adm.org/" class="external">Archer Daniels Midland</a></font></b></td></tr>
+<tr><td><b><font size = "2.5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.asu.edu/" class="external">Arizona State University</a></font></b></td></tr>
+<tr><td><b><font size = "2.5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.avanade.com/" class="external">Avanade, Inc.</a></font></b></td></tr>
+<tr><td><b><font size = "2.5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.businesslogic.com/" class="external">Business Logic Corporation</a></font></b></td></tr>
+<tr><td><b><font size = "2.5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.factset.com/" class="external">FactSet Research Systems, Inc.</a></font></b></td></tr>
+<tr><td><b><font size = "2.5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.imagination-engines.com/" class="external">Imagination Engines, Inc.</a></font></b></td></tr>
+<tr><td><b><font size = "2.5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.microsoft.com/" class="external">Microsoft</a></font></b></td></tr>
+<tr><td><b><font size = "2.5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.paypal.com/" class="external">PayPal, an eBay Company</a></font></b></td></tr>
+<tr><td><b><font size = "2.5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.pwc.com/" class="external">PricewaterhouseCoopers, LLP</a></font></b></td></tr>
+<tr><td><b><font size = "2.5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.strata-decision.com/" class="external">Strata Decision Technology</a></font></b></td></tr>
+<tr><td><b><font size = "2.5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.volition-inc.com/" class="external">Volition, Inc.</a></font></b></td></tr>
+<tr><td><b><font size = "2.5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.xanga.com/" class="external">Xanga.com</a></font></b></td></tr>
+<tr><td><b><font size = "2.5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.zsassociates.com/" class="external">ZS Associates</a></font></b></td></tr>
+</table>
+
+<p></p>
+-->
+<p>
+<table><tr><td bgcolor="#ffffff">
+<center>
+<a href="http://www.admworld.com"><img src="corp-logos/ADM.jpeg" border=0 valign="center"></a>
+<a href="http://www.apple.com"><img src="corp-logos/Apple.png" border=0 valign="center"></a>
+<a href="http://www.microsoft.com"><img src="corp-logos/Microsoft.jpeg" border=0 valign="center"></a>
+<a href="http://www.morganstanley.com"><img src="corp-logos/MorganStanley.jpeg" border=0 valign="center"></a>
+<a href="http://www.volition-inc.com"><img src="corp-logos/Volition.jpeg" border=0 valign="center"></a>
+<br>
+<font color="#000000">
+and also (logos coming soon..)<br>
+Altera, Amazon, Beckman Coulter, Cerner, EA Games, Google, HYLAND SOFTWARE, Inc.,
+Oak Ridge National Lab</font>
+</center>
+</td></tr></table>
+</p>
+
+</div>
+
+<?php include '_bottom.php'; ?>
+

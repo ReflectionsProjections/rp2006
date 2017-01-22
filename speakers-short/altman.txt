@@ -1,0 +1,16 @@
+Jeffrey Altman is the President of Secure Endpoints Inc., and is is a long
+time open source developer and participant in the Internet Engineering Task
+Force.  Jeffrey's current projects and roles include:
+
+<li>MIT Kerberos. Core team member. http;//web.mit.edu/kerberos/
+Contributor to the Kerberos 5 library and applications; and lead developer
+of the Kerberos for Windows product.
+<li>OpenAFS. Gatekeeper. http://www.openafs.org
+Lead developer for the Windows port of OpenAFS client and server.
+<li>C-Kermit and Kermit 95. Contributing developer.
+http://www.kermit-project.org
+Kermit 95 Program author. Responsible for all security and network protocol
+stack components.
+<li>OpenSSL. Contributing developer. http://www.openssl.org
+<li>Project JXTA. Director. http://www.jxta.org
+</ul>

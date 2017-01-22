@@ -1,0 +1,36 @@
+Where's My Compiler? Developer Tools: Past, Present, and Future
+
+This talk is about the evolution of what is today called "the tool chain,"
+and specifically how the role of the compiler has changed over the last 50
+years.  I'll talk about how a modern compiler must balance the need to
+produce high-quality output code with the requirement that the compiler
+itself execute quickly.  And I'll talk about how compiler technology has
+been absorbed into other parts of the software environment -- some of them
+obvious, but some of them probably a bit surprising.
+
+Jim Miller
+
+Jim Miller has designed and implemented a number of novel and useful
+real-world systems over more than thirty years, including: the Microsoft
+Common Language Runtime (and its shared source implementation, ROTOR); the
+PICS Internet content selection system (1995); the first public
+implementation of Dylan (Thomas, 1993); the MultiScheme paralle programming
+system (1989); the first portable Scheme implementation (CScheme, 1983); the
+first full-function e-mail system (Hermes, 1976); and the first source-level
+debugger for a high-level language (BDDT, 1972).
+
+Since 1998 Jim has worked at Microsoft Corporation on the design and
+development of the Common Language Runtime (CLR).  He served as editor for
+the ISO Standard on a Common Language Infrastructure.  He's currently a
+software architect on the Developer Frameworks team. His current work is on
+versioning in an object-oriented system and on bringing the CLR to a wider
+range of programming languages as well as client-side and web-based
+applications.
+
+Prior to his work at Microsoft, Jim created and headed the Computers and
+Society domain at the World Wide Web Consortium to work on issues ranging
+from child protection to electronic commerce to privacy protection to
+accessibility for the disabled.  He has also been on the research staff at
+the Massachusetts Institute of Technology, the faculty of Brandeis
+University, the research staff of Digital Equipment Corporation, and the
+research staff at Bolt, Beranek, and Newman.

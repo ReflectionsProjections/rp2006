@@ -1,0 +1,47 @@
+Stew
+
+A stew is a collection of ingredients, prepared by simmering slowly.
+My pocket dictionary also adds the definition "mental agitation."
+The ingredients of this talk can come from any of the topics below,
+or if anyone in the audience wants to add another ingredient to the
+stew, he/she is welcome to do so.  We are computer scientists and
+engineers, and we spend a lot of our energies creating technology.
+My hope in this talk is to explore some of the issues we face, both
+as computer people and as members of the human race.  Which ones we
+spend time on depends on the audience.
+
+<!-- points are ranked from (1) to (4) in terms of importance of including
+     them in the conference program.  (1) is most important, (4) least. -->
+<ul>
+<li> The Correct way to introduce freshmen to computing. (1)
+<li> The Microprocessor ten years from now. (1)
+<li> What will computers be able to do in 20 years?
+<li> Programming, and why Objects too early can be harmful. (2)
+<li> Political correctness has no place in a university classroom. (1)
+<li> Affirmative action is often problematic. (3)
+<li> Should football players be required to take courses? (2)
+<li> Should computer scientists have to study humanities? (2)
+<li> Is writing necessary in an engineering education? (3)
+<li> Computer Architecture, often considered dead, is alive and well. (4)
+<li> Control of computing in the world is no longer a US prerogative. (3)
+<li> What is the defining document of the United States of America? (4)
+<li> Four years of college: Is anything worth learning? (1)
+<li> How to get a job after graduation, ...and how to keep it. (1)
+</ul>
+
+Yale N. Patt
+
+Yale Patt is a teacher at The University of Texas at Austin.  He is also the
+Ernest Cockrell, Jr. Centennial Chair in Engineering, Professor of
+Electrical and Computer Engineering, and Professor of Computer Sciences.  He
+has done fundamental research in microarchitecture, producing (with his
+students) the HPS paradigm, the Two-level Branch Predictor, Runahead
+Execution, and Wish Branches, among other things.  More importantly, he gets
+to teach the introductory freshman course in computing to 400 freshmen at UT
+every other Fall.  He wrote the book for that course with Professor Sanjay
+Patel of UIUC.  He also has an extensive consulting practice working with
+microprocessor manufacturers on problems in microarchitecture and computer
+systems.  He has received a number of awards for his research and teaching,
+perhaps most notably the 1996 ACM/IEEE Eckert-Mauchly Award and the 2000 ACM
+Karl V. Karlstrom Award.  He is a Fellow of both the IEEE and ACM.  More
+detail can be found on his website: http://www.ece.utexas.edu/~patt

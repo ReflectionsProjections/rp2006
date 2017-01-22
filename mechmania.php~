@@ -1,0 +1,53 @@
+<?php
+	$thispage = "mechmania"; 
+	$title = "MechMania $rp_mechmania_num";
+	$mm_staff_email = "mechmania@acm.uiuc.edu";
+	include 'includes/_top.php';
+?>
+
+<div id="content">
+
+<table><tr><td>
+<!--<img src="images/mmxilogo.jpg" width = "360" height = "360" align="right">-->
+
+<div class="section_title">MechMania <?php echo $rp_mechmania_num;
+?>:<br>ACM@UIUC's <?php echo $rp_number; ?> Annual 
+<br>C++/AI Programming Contest</div>
+<div class="section">
+<b><?php echo "$rp_days, $rp_year"; ?></b>
+<br>
+University of Illinois at Urbana-Champaign
+<br>
+Thomas M. Siebel Center for Computer Science
+<br>
+<br>
+<!-- 
+<a href="reg_mm.php">Register your team for MechMania</a>
+-->
+</div>
+
+<?php include '_mechmaniasponsor.php'; ?>
+
+</td></tr></table>
+
+
+<div class="section_title">Results</div>
+<p>
+First Place - Team NOOP (University of Missouri-Rolla)<br>
+Second Place - Team KIN (UIUC)<br>
+Third Place - Artificial Unintelligence (UIS)<br>
+</p>
+<p>
+Coming soon (stay tuned): the tournament bracket, screenshots, and the complete source code to the competition!
+</p>
+
+<p>
+If you have any questions about this year's competition, email the staff at <a href="mailto:<?php echo $mm_staff_email; ?>"><?php echo $mm_staff_email; ?></a>.
+</p>
+<!--
+<p>
+<a href="reg_mm.php">Register your team for MechMania</a>
+</p>
+-->
+</div>
+<?php include 'includes/_bottom.php'; ?>

@@ -1,0 +1,17 @@
+Jeffrey Altman
+President and CEO, Secure Endpoints, Inc.
+
+In this talk I will share my life experience, motivations, dreams, successes
+and failures.  It is my hope that those who attend will be inspired not only
+to follow a career in computer science but to do so while thinking outside
+the box and applying their skills to solving society's challenges. 
+
+Computers are tools to be used to solve much more interesting and complex
+problems in life.  Computer science is one of the greatest fields to choose
+as a career because your skills can be applied to virtually any domain, from
+education to genetic sequencing to space exploration to modern dance to
+health care.  A successful career requires the understanding not only of
+computer science techniques but also the domain to which they are applied. 
+It is this application of computer science which, in my opinion, makes being
+a computer scientist or engineer the greatest occupation the world has ever
+known.

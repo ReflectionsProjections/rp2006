@@ -1,0 +1,336 @@
+<?php
+	$thispage = "events";
+	$title = "Schedule of events for Reflections | Projections 2006";
+	include 'includes/_top.php';
+?>
+
+<div id="content">
+
+<p><font size="+2">Schedule of Events</font></p>
+
+<p>
+<center>
+To see a list of speakers, please visit our <a href="speakers.php">Speakers Page</a>.
+</center>
+</p>
+<br />
+<table width=749 border=1 cellpadding=2 cellspacing=0 class="events">
+	<tr>
+		<td colspan=1 width="16%" class="eventtime"></td>
+		<td colspan=6 width="84%" class="eventtime"><strong>Friday, October 20<sup>th</sup>, 2006</strong></td>
+	</tr>
+	
+	<tr>
+		<td class="eventtime">
+			<strong>9:00a</strong>
+		</td>
+		<td colspan=6>
+			Check-in Begins<br />
+			Job Fair Setup<br />
+			<em>Siebel Center Atrium</em>
+		</td>
+	</tr>
+	<tr>
+		<td class="eventtime" width="16%">
+			<strong>10:00a</strong>
+		</td>
+		<td rowspan="7" colspan="6" width="84%">
+			<br />
+			<a href="jobfair.php">Computing Job Fair</a><br />
+			<em>Siebel Center Atrium </em><br /><br /><br />
+			<a href="register_attend.php"><i>Register and Submit Your Resume Online</i></a>
+			<p>&nbsp;</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="eventtime">
+			<strong>11:00a</strong>
+		</td>
+	</tr>
+	<tr>
+		<td class="eventtime">
+			<strong>12:00p</strong>
+		</td>
+	</tr>
+		<tr>
+		<td class="eventtime">
+			<strong>1:00p</strong>
+		</td>
+	</tr>
+		<tr>
+		<td class="eventtime">
+			<strong>2:00p</strong>
+		</td>
+	</tr>
+		<tr>
+		<td class="eventtime">
+			<strong>3:00p</strong>
+		</td>
+	</tr>
+		<tr>
+		<td class="eventtime">
+			<strong>4:00p</strong>
+		</td>
+	</tr>
+	<tr>
+		<td class="eventtime">
+			<strong>5:00p</strong>
+		</td>
+		<td colspan=6>
+			<a class="external" href="speakers.php#JoelSpolskyAbstract">"Great Software"</a><br />
+			<a href="speakers.php#JoelSpolsky">Joel Spolsky, Fog Creek Software</a><br />
+			<em>Location: 1404 Siebel Center</em>
+		</td>
+	</tr>
+	<tr>
+		<td class="eventtime">
+			<strong>6:30p</strong>
+		</td>
+		<td colspan=6>
+			Dinner from Qdoba sponsored by Google<br />
+			<em>Siebel Center Atrium</em><br/>
+			<a class="external" href="mechmania.php">MechMania Introduction, sponsored by Morgan Stanley</a><br />
+			<em>Location: 0224 Siebel Center</em>
+		</td>
+	</tr>
+	<tr>
+		<td class="eventtime">
+			<strong>7:30p</strong>
+		</td>
+		<td colspan=3 width="42%">
+			<a class="external" href="speakers.php#LillianLeeAbstract">"Sense and Sensibility: Automatically Analyzing Subject and Sentiment in Human-Authored Texts"</a><br />
+			<a href="speakers.php#LillianLee">Lillian Lee, Cornell University</a><br />
+			<em>Location: 1404 Siebel Center</em>
+		</td>
+		<td colspan=3 width="42%">
+			<a class="external" href="speakers.php#EricJohnsonAbstract">"Life With a Daily Build--the Good and the Bad"</a><br />
+			<a href="speakers.php#EricJohnson">Eric Johnson, FactSet Research Systems</a><br />
+			<em>Location: 1320 DCL</em>
+		</td>
+	</tr>
+	<tr>
+		<td class="eventtime">
+			<strong>8:45p</strong>
+		</td>
+		<td colspan=3>
+			<a class="external" href="speakers.php#ChrisDiBonaAbstract">"Open Source and the Google Summer of Code"</a><br />
+			<a href="speakers.php#ChrisDiBona">Chris DiBona, Google</a><br />
+			<em>Location: 1404 Siebel Center</em>
+		</td>
+		<td colspan=3>
+			<a class="external" href="speakers.php#KudoTsunodaAbstract">"Kudo School of Game Design"</a><br/>
+			<a href="speakers.php#KudoTsunoda">Kudo Tsunoda, EA</a><br />
+			<em>Location: 1320 DCL</em>
+		</td>
+	</tr>
+	<tr>
+		<td class="eventtime">
+			<strong>10:00p</strong>
+		</td>
+		<td colspan=6>
+			<a class="external" href="mechmania.php">MechMania Introduction, sponsored by Morgan Stanley</a><br />
+			<em>Location: 0224 Siebel Center</em>
+		</td>
+	</tr>
+	<tr bgcolor="#BBBBBB">
+		<td colspan=7>
+			&nbsp;
+		</td>
+	</tr>
+	<tr>
+		<td class="eventtime">
+			&nbsp;
+		</td>
+		<td colspan=6 class="eventtime">
+			<strong>Saturday, October 21<sup>st</sup>, 2006</strong>
+		</td>
+	</tr>
+	<tr>
+		<td class="eventtime">
+			<strong>9:00a</strong>
+		</td>
+		<td colspan=6>
+			Continental Breakfast<br />
+			<em>Siebel Center Atrium</em>
+		</td>
+	</tr>
+	<tr>
+		<td class="eventtime">
+			<strong>10:00a</strong>
+		</td>
+		<td colspan=6>
+			<a class="external" href="speakers.php#MaxLevchinAbstract">"Millionaire Before Graduation: Entrepreneurship in the Post-Post-Bubble Internet"</a><br />
+			<a href="speakers.php#MaxLevchin">Max Levchin, co-founder and former CTO, Paypal, founder and CEO, Slide.com</a><br />
+			<em>Location: 1404 Siebel Center</em>
+		</td>
+	</tr>
+	<tr>
+		<td class="eventtime">
+			<strong>11:15a</strong>
+		</td>
+		<td colspan=3>
+			<a class="external" href="speakers.php#HaroldCohenAbstract">"Color, Simply"</a><br />
+			<a href="speakers.php#HaroldCohen">Harold Cohen, University of California - San Diego, AARON</a><br />
+			<em>Location: 1404 Siebel Center</em>
+		</td>
+		<td colspan=3>
+			<a class="external" href="speakers.php#JeffreyAltmanAbstract">"Making A Difference in Society With A Career in Computer Science"</a><br />
+			<a href="speakers.php#JeffreyAltman">Jeffrey Altman, Secure Endpoints, Inc.</a><br />
+			<em>Location: 1320 DCL</em>
+		</td>
+	</tr>
+	<tr>
+		<td class="eventtime">
+			<strong>12:30p</strong>
+		</td>
+		<td colspan=6>
+			Lunch from Papa Del's<br />
+			<em>Siebel Center Atrium</em>
+		</td>
+	</tr>
+	<tr>
+		<td class="eventtime">
+			<strong>1:30p</strong>
+		</td>
+		<td colspan=3>
+			<a class="external" href="speakers.php#YalePattAbstract">"Stew"</a><br />
+			<a href="speakers.php#YalePatt">Yale Patt, University of Texas</a><br />
+			<em>Location: 1404 Siebel Center</em>
+		</td>
+		<td colspan=3>
+			<a class="external" href="speakers.php#JohnMizelAbstract">"A+: From Proprietary Programming Language to Open Source"</a><br />
+			<a href="speakers.php#JohnMizel">John Mizel, Morgan Stanley</a><br />
+			<em>Location: 1320 DCL</em>
+		</td>
+	</tr>
+	<tr>
+		<td class="eventtime">
+			<strong>2:45p</strong>
+		</td>
+		<td colspan=3>
+			<a class="external" href="speakers.php#AdrianBowyerAbstract">"The Replicating Rapid-Prototyper - Moving Hardware Through the Wires"</a><br />
+			<a href="speakers.php#AdrianBowyer">Adrian Bowyer, University of Bath, RepRap</a><br />
+			<em>Location: 1404 Siebel Center</em>
+		</td>
+		<td colspan=3>
+			<a class="external" href="speakers.php#AlexStamosAbstract">"Breaking AJAX Web Applications: Vulns 2.0 in Web 2.0"</a><br />
+			<a href="speakers.php#AlexStamos">Alex Stamos, iSEC Partners</a><br />
+			<em>Location: 1320 DCL</em>
+		</td>
+	</tr>
+	<tr>
+		<td class="eventtime">
+			<strong>4:00p</strong>
+		</td>
+		<td colspan=6>
+			Snacks and refreshments sponsored by Google<br />
+			<em>Siebel Center Atrium</em>
+		</td>
+	</tr>
+	<tr>
+		<td class="eventtime">
+			<strong>4:30p</strong>
+		</td>
+		<td colspan=3>
+			<a class="external" href="speakers.php#KwabenaBoahenAbstract">"Metaelectronics: Self-Configuring Neuromorphic Systems"</a><br />
+			<a href="speakers.php#KwabenaBoahen">Kwabena Boahen, Stanford University</a><br />
+			<em>Location: 1404 Siebel Center</em>
+		</td>
+		<td colspan=3>
+			<a class="external" href="speakers.php#BurnieBurnsAbstract">"Red vs. Blue"</a><br />
+			<a href="speakers.php#BurnieBurns">Burnie Burns, Rooster Teeth Productions</a><br />
+			<em>Location: 1320 DCL</em>
+		</td>
+	</tr>
+	<tr>
+		<td class="eventtime">
+			<strong>5:45p</strong>
+		</td>
+		<td colspan=6>
+			Dinner from Noodles and Co.<br />
+			<em>Siebel Center Atrium</em>
+		</td>
+	</tr>
+	<tr>
+		<td class="eventtime">
+			<strong>7:15p</strong>
+		</td>
+		<td colspan=6>
+			<a class="external" href="speakers.php#JawedKarimAbstract">"YouTube: From Concept to Hypergrowth"</a><br />
+			<a href="speakers.php#JawedKarim">Jawed Karim, co-founder, YouTube</a><br />
+			<em>Location: 1404 Siebel Center</em>
+		</td>
+	</tr>
+	<tr>
+		<td class="eventtime">
+			<strong>8:30p</strong>
+		</td>
+		<td colspan=3>
+			<a class="external" href="speakers.php#JimMillerAbstract">"Where's My Compiler? Developer Tools: Past, Present, and Future"</a><br />
+			<a href="speakers.php#JimMiller">Jim Miller, Microsoft</a><br />
+			<em>Location: 1404 Siebel Center</em>
+		</td>
+		<td colspan=3>
+			<a class="external" href="speakers.php#ChipMayseAbstract">"A Newton's-Method Formulation of the Reconnaissance-Satellite Maneuver-Duration Problem"</a><br />
+			<a href="speakers.php#ChipMayse">Chip Mayse, SAIC</a><br />
+			<em>Location: 1320 DCL</em>
+		</td>
+	</tr>
+	<tr bordercolor="#8B8B8B" bgcolor="#BBBBBB">
+		<td colspan=7>&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="eventtime">
+ 			&nbsp;
+ 		</td>
+		<td colspan=6 class="eventtime">
+			<strong>Sunday, October 22<sup>nd</sup>, 2006</strong>
+		</td>
+	</tr>
+	<tr>
+		<td class="eventtime">
+			<strong>9:00a</strong>
+		</td>
+		<td colspan=6>
+			Continental Breakfast<br />
+			<em>Siebel Center Atrium</em>
+		</td>
+	</tr>
+	<tr>
+		<td class="eventtime">
+			<strong>10:00a</strong>
+		</td>
+		<td colspan=6>
+			<a class="external" href="speakers.php#RobertCringelyAbstract"><!--Insert Title Here--></a><br />
+			<a href="speakers.php#RobertCringely">Robert X. Cringely, PBS</a><br />
+			<em>Location: 1404 Siebel Center</em>
+		</td>
+	</tr>
+	<tr>
+		<td class="eventtime">
+			<strong>11:15a</strong>
+		</td>
+		<td colspan=3>
+			<a class="external" href="speakers.php#MichaelSwiftAbstract">"Improving the Reliability of Commodity Operating Systems"</a><br />
+			<a href="speakers.php#MichaelSwift">Michael Swift, University of Wisconsin-Madison</a><br />
+			<em>Location: 1404 Siebel Center</em>
+		</td>
+		<td colspan=3>
+			<a class="external" href="speakers.php#SanjayPatelAbstract">"Video Games, Physics, and High-performance Computer Architecture"</a><br />
+			<a href="speakers.php#SanjayPatel">Sanjay Patel, University of Illinois at Urbana-Champaign, AGEIA</a><br />
+			<em>Location: 1320 DCL</em>
+		</td>
+	</tr>
+	<tr>
+		<td class="eventtime">
+			<strong>1:00p</strong>
+		</td>
+		<td colspan=6>
+			MechMania Finals<br />
+			<em>1404 Siebel Center</em>
+		</td>
+	</tr>
+</table>
+</div>
+
+<?php include 'includes/_bottom.php'; ?>

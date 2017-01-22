@@ -1,0 +1,24 @@
+<?php
+
+$thispage = "survey";
+$title = "Survey";
+require '../includes/_top.php';
+require '../includes/database.php';
+$conn = new MySqlConnection($rp_db_host, $rp_db_user, $rp_db_pwd, $rp_db_database);
+echo '<div id="content">';
+
+echo '<p><font size="+2">Survey Results</font></p>';
+
+$submissions = mysql_query("SELECT submission_id, timestamp FROM survey_submissions2006 ORDER BY submission_id;");
+while (list(submission_id, timestamp) = mysql_fetch_row($submissions)) {
+	echo "<hr>\n";
+	$responses = mysql_query("SELECT question_id, question_number, response FROM survey_responses2006 ORDER BY question_number;");
+	while (list($question_id, $question_number, $response) = mysql_fetch_row($submissions)) {
+		echo "$question_number. ($question_id): $response<br>\n";
+	}
+}
+
+echo '</div>';
+include 'includes/_bottom.php';
+
+?>

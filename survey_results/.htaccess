@@ -1,0 +1,19 @@
+#Redirect permanent http://www.acm.uiuc.edu/conference/2006/admin https://www-s.acm.uiuc.edu/conference/2006/admin
+
+Options +Includes
+
+SSLRequireSSL
+
+#CDC section for mod_auth_kerb
+AuthType Kerberos
+AuthAuthoritative off
+AuthName "ACM.UIUC.EDU Kerberos (your ACM linux password)"
+
+KrbMethodNegotiate on
+KrbAuthRealms ACM.UIUC.EDU
+Krb5Keytab /etc/www.keytab
+
+AuthAFSGROUP_StripRealm on
+
+require afsgroup proj.rp
+#CDC end section for mod_auth_kerb

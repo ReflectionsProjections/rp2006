@@ -1,0 +1,94 @@
+<?php
+	$thispage = "details";
+	$parent = "mechmania";
+	$title = "MechMania Details";
+	$mm_staff_email = "mechmania@acm.uiuc.edu";
+	include 'includes/_top.php';
+?>
+<div id="content">
+
+    <div class="section_title">General Overview:</div>
+      <ul>
+        <li> 3 people per team
+        <li> 2 computers per team
+        <li> C++ AI programming
+        <li> Contest details and API released Friday night at the mandatory Kick-off Session
+        <li> Competition is Sunday morning. If you need to leave early, you can still compete, but be sure to let us know!
+        <li> Lots of food and soda provided by us to keep you going. But <b>NO eating in the labs</b>.
+      </ul>
+    
+<p><div class="section_title">Who's eligible:</div><br>
+Teams of three members each. This year we are allowing two types of teams to compete: student and corporate.
+
+<p><div class="section_title">Student competition</div><br>
+All members of student teams must be both <a href="register.php">registered Conference attendees</a> and current students at an educational institution. Student teams will face off against each other in a 16-team double-elimination tournament at the end of the competition.</p>
+
+<p><div class="section_title">Corporate competition</div><br>
+New for MechMania XII, we are allowing corporate teams to participate in MechMania. We will not be able to provide lab space, but we will provide the libraries and documentation necessary for teams to run the environment on their own computers. Corporate teams will compete against other corporate teams and in exhibition matches against student teams. The exact format of the corporate tournament may vary based on the number of participating teams.
+</p>
+
+<p>The game administrators will make final determination on eligibility.</p>
+
+<p><div class="section_title">What you need to know:</div><br>
+We assume that all contestants know and are comfortable using C++.  It will also be useful to have at least one team 
+member familiar with the Standard Template Library (STL).  You'll only need to know how to use STL vectors (which are 
+easy), but knowing about some of the other tools will make coding a lot faster.</p>
+
+<p><div class="section_title">What you don't need to know:</div><br>
+No knowledge of graphics or network programming is required.  The client/server engine contains no user serviceable 
+parts.</p>
+
+<p><div class="section_title">What you'll do:</div><br>
+Using the API and framework we provide, you will implement a 'Player' class that will compete with another Player in a 
+virtual arena. The API will provide methods for examining the game environment and sending commands to the server. One 
+or two complete sample clients will be provided.</p>
+<p>You may find some of the <a href="mechmania_history.php">past MechMania websites</a> helpful to get an idea of what the
+contest will be like.</p>
+
+<p><div class="section_title">When it'll happen:</div><br>
+Details of the game and the API will be released to all teams at the kick-off session, the evening of Friday Oct 20th.
+It's all hush-hush till then.</p>
+
+<p>Beginning Saturday (and continuing into Sunday) you will have roughly 18 hours of lab time to use as you see fit. 
+
+</p>
+ 	
+	<p>Sunday morning, the sixteen teams will compete in a double-elimination tournament until only one is left standing.  
+
+	The top teams will receive prizes and resume bragging rights.</p>
+
+	<p><div class="section_title">What we'll give you:</div><br>
+	Your team will be allocated two PCs running Red Hat Enterprise Linux 4. The development environment will be Linux, but actual code is 
+	platform independent: you don't need to be a Unix guru.  We'll provide the standard Unix emacs/vi/make environment, plus 
+	Eclipse for those of you who are more comfortable in a Visual Studio style IDE.</p>
+<p>
+You will have access to the Standard Template Library and Boost.
+</p>
+
+	<p><div class="section_title">What you can bring:</div><br>
+	You may bring any textual references you like - C++ books, Sun Tzu's "The Art of War", whatever. Laptops may be used for 
+	reading the electronic documentation; however, code on them at your own risk. We will not help you if your code runs on 
+	your machines but not ours.
+
+</p><p>No outside code can be brought in (on electronic media.)
+    However, you <i>are</i> allowed to bring in non-code files via
+    electronic media (or over the network.) Examples include rc files,
+    build scripts, notes, and basically anything else that doesn't
+    contain actual code.
+       There's obviously some room for interpretation
+    here, but if in doubt use this rule of thumb: Don't do anything that
+    would entitle you to the big fuzzy bat to your head. </p>
+
+<p><div class="section_title">For more information:</div><br>
+If you have any other questions, just email the staff at <a href="mailto:<?php echo $mm_staff_email; ?>"><?php echo $mm_staff_email; ?></a>.
+</p>
+
+<p>
+<a href="reg_mm.php">Register your team for MechMania</a>
+
+<p>
+    
+<?php include '_mechmaniasponsor.php'; ?>
+
+</div>
+<?php include 'includes/_bottom.php'; ?>

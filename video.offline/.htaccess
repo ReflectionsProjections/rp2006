@@ -1,0 +1,2 @@
+RedirectMatch .*\.(wmv|pdf) http://www.acm.uiuc.edu/conference/video/
+

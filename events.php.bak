@@ -1,0 +1,262 @@
+<?php
+        $thispage = "events";
+        $title = "Schedule";
+        include '_top.schedule.php';
+?>
+
+<div id="image_strip">
+<center><img src="images/topstrip3.jpg" border=0></center>
+</div>
+
+<div id="content">
+
+<p>
+A list of our speakers and events will be posted as more information becomes
+available.
+</p>
+<p>Should you have any questions or suggestions about any event
+(speakers, dining, etc), you can contact us at <a
+href="mailto:<?php echo $rp_chair_email; ?>"><?php echo $rp_chair_email; ?></a>
+</p>
+
+<!--
+
+To see a list of speakers, please visit our <a href="speakers.php">Speakers Page</a>.
+
+<p></p>
+
+<table width=749 border=1 bordercolor="#999999" cellpadding=2 cellspacing=0 bgcolor="#6b7368" class="events">
+  <tr>
+    <td width="16%" bgcolor="#5a6257">&nbsp; </td>
+    <td colspan=4 bgcolor="#5a6257"><strong>Friday, October 22nd, 2004</strong></td>
+  </tr>
+  <tr>
+    <td  bgcolor="#5a6257">
+      <strong>8:00a</strong></td>
+    <td colspan=4 bgcolor="#7c8479">
+      Check-in Begins<br>
+      <i>Siebel Center Atrium</i> </td>
+  </tr>
+  <tr>
+    <td  bgcolor="#5a6257">
+      <strong>9:00a</strong></td>
+    <td colspan=4 rowspan="7" bgcolor="#7c8479">
+      
+        <p><a href="jobfair.php">Computing Job Fair</a><br>
+          <em>Siebel Center Atrium </em></p>
+        <p>&nbsp;</p>
+        <p><i><a href="register_attend.php">Register and Submit Your Resume Online</a></i></p>
+        <p>&nbsp;</p>
+      </td>
+  </tr>
+  <tr>
+    <td bgcolor="#5a6257"><strong>10:00a</strong></td>
+  </tr>
+  <tr>
+    <td bgcolor="#5a6257"><strong>11:00a</strong></td>
+  </tr>
+  <tr>
+    <td bgcolor="#5a6257"><strong>noon</strong></td>
+  </tr>
+  <tr>
+    <td bgcolor="#5a6257"><strong>1:00p</strong></td>
+  </tr>
+  <tr>
+    <td bgcolor="#5a6257"><strong>2:00p</strong></td>
+  </tr>
+  <tr>
+    <td bgcolor="#5a6257"><strong>3:00p</strong></td>
+  </tr>
+  <tr>
+    <td  bgcolor="#5a6257">
+      <strong>4:30p</strong></td>
+    <td colspan=4 bgcolor="#7c8479">
+      Opening Reception<br>Dinner catered by Za's Italian Cafe<br>
+          <em>Grainger Engineering Library, Second Floor</em></td>
+  </tr>
+  <tr>
+    <td  bgcolor="#5a6257">
+      <strong>6:30p</strong></td>
+    <td colspan=4 bgcolor="#7c8479">
+      Welcome and Introduction<br>
+      <i>1404 Siebel Center</i></td>
+  </tr>
+  <tr>
+    <td  bgcolor="#5a6257">
+      <strong>7:00p</strong></td>
+    <td colspan=4 bgcolor="#7c8479">
+      <a class="external" href="abstracts/horvath.php"> "How to use years of extensive training in engineering and the arts<br> to sell popcorn and soft drinks"</a><br>
+      <a href="bios/horvath.php">Chris Horvath, Tweak Films </a><br>
+      <em>1404 Siebel Center </em></td>
+  </tr>
+  <tr>
+    <td  bgcolor="#5a6257"><strong>8:30p</strong></td>
+    <td colspan=2 bgcolor="#7c8479">
+    Puzzle Wrap-up<br>
+    <a href="/puzzle/">www.acm.uiuc.edu/puzzle</a><br>
+    <em>1404 Siebel Center</em></td>
+    </td>
+    <td colspan=2 bgcolor="#7c8479"><a href="mechmania.php">MechMania X Kick-off / API Release</a><br>
+        <em>2405 Siebel Center</em>
+    </td>
+  </tr>
+  <tr bgcolor="#8B9587">
+    <td colspan="5">&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#5a6257">
+      <p align=CENTER></td>
+    <td colspan=4 bgcolor="#5a6257"><strong>Saturday, October 23rd, 2004</strong></td>
+  </tr>
+  <tr>
+    <td  bgcolor="#5a6257"><strong> 7:30a</strong></td>
+    <td colspan=4 bgcolor="#7c8479">
+      Breakfast from Bagelmen's Bakery <br>
+          <em>Siebel Center Atrium</em></td>
+  </tr>
+  <tr>
+    <td  bgcolor="#5a6257"><strong> 8:00a</strong></td>
+    <td colspan=4 bgcolor="#7c8479">
+      
+      <a class="external" href="abstracts/kawasaki.php">"Entrepreneurship"</a><br>
+      <a href="bios/kawasaki.php">Guy Kawasaki, Garage Technology Ventures, Former Apple Fellow </a><br>
+          <em>1404 Siebel Center </em></td>
+  </tr>
+  <tr>
+    <td width="16%" bgcolor="#5a6257"><strong> 9:00a</strong></td>
+    <td width="42%" colspan=2 bgcolor="#7c8479">
+     <a class="external" href="abstracts/cormen.php">"Edna St. Vincent Millay Was Right&quot;</a><br>
+     <a href="bios/cormen.php">Thomas Cormen, Dartmouth College</a><br>
+     <em>1404 Siebel Center </em></td>
+     <td width="42%" colspan=2 bgcolor="#7c8479">
+      <a class="external" href="abstracts/swetland.php">"Behind the Scenes:<br>Development of the Danger hiptop"</a><br>
+      <a href="bios/swetland.php">Brian Swetland, Danger, Inc.</a><br>
+     <em>1320 Digital Computer Lab </em></td>
+  </tr>
+  <tr>
+    <td  bgcolor="#5a6257"><strong> 10:30a</strong></td>
+    <td colspan=2 bgcolor="#7c8479">
+      <a class="external" href="abstracts/leiserson.php">"Programming Shared-Memory Multiprocessors Using the Cilk Multithreaded Language"</a><br>
+      <a href="bios/leiserson.php">Charles Leiserson, MIT</a><br>
+      <em>1404 Siebel Center </em></td>
+    <td colspan=2 bgcolor="#7c8479">
+      <a class="external" href="abstracts/astrachan.php">"A Random Walk<br>Through Computer Science"</a><br>
+      <a href="bios/astrachan.php">Owen Astrachan, Duke University</a><br>
+      <em>1320 Digital Computer Lab </em> </td>
+  </tr>
+  <tr>
+    <td  bgcolor="#5a6257"><strong> noon</strong></td>
+    <td colspan=4 bgcolor="#7c8479"> Lunch from Blimpie's Sandwiches<br>
+          <em>Siebel Center Atrium</em> </td>
+  </tr>
+  <tr>
+    <td  bgcolor="#5a6257"><strong> 1:00p</strong></td>
+    <td colspan=2 bgcolor="#7c8479">
+      <a class="external" href="abstracts/wales.php">"Free Knowledge: The Practical Revolution"</a><br>
+      <a href="bios/wales.php">Jimmy Wales, Wikipedia Founder </a><br>
+          <em>1404 Siebel Center </em></td>
+    <td colspan=2 bgcolor="#7c8479">
+      <a class="external" href="abstracts/triantos.php">"GPUs: They're Not Just For Your Grandma to Play Quake, Anymore"</a><br>
+      <a href="bios/triantos.php">Nick Triantos, NVIDIA Corporation </a><br>
+      <em>1320 Digital Computer Lab </em></td>
+  </tr>
+  <tr>
+    <td  bgcolor="#5a6257"><strong> 2:30p</strong></td>
+    <td colspan=2 bgcolor="#7c8479">
+      <a class="external" href="abstracts/davidanderson.php">"Public Distributed Computing with BOINC"</a><br>
+      <a href="bios/davidanderson.php">David Anderson, SETI@Home</a><br>
+      <em>1404 Siebel Center </em> <br>
+    </td>
+    <td colspan=2 bgcolor="#7c8479">
+      <a class="external" href="abstracts/pessino.php">"A Real-Time Programmable Particle System Engine"</a><br>
+      <a href="bios/pessino.php">Andrea Pessino, Ready at Dawn Studios </a><br>
+      <em>1320 Digital Computer Lab </em></td>
+  </tr>
+  <tr>
+    <td  bgcolor="#5a6257"><strong> 4:00p</strong></td>
+    <td colspan=2 bgcolor="#7c8479">
+      <a class="external" href="abstracts/patel.php"> "Optimizing for the G5 using Shark"</a><br>
+      <a href="bios/patel.php">Sanjay Patel, Apple Computer</a><br>
+        <em>1404 Siebel Center </em></td>
+    <td colspan=2 bgcolor="#7c8479">
+      <a class="external" href="abstracts/gray.php">"Designing and Developing Games using Licensed Properties"</a><br>
+      <a href="bios/gray.php">Richard Gray, Ritual Entertainment</a><br>
+	<a href="bios/stockman.php">Chris Stockman, Volition, Inc.</a><br>
+          <em>1320 Digital Computer Lab </em></td>
+  </tr>
+  <tr>
+    <td  bgcolor="#5a6257"><strong> 5:30p</strong></td>
+    <td colspan=4 bgcolor="#7c8479">
+      Dinner from Longhorn Smokehouse<br>
+          <em>Siebel Center Atrium</em> <br>
+    </td>
+  </tr>
+  <tr>
+    <td  bgcolor="#5a6257"><strong> 7:00p</strong></td>
+    <td colspan=4 bgcolor="#7c8479">
+      <a class="external" href="abstracts/markandersen.php">"Backstage Magic: A historical, behind-the-scenes look<br>at the role computers play in Disney's theme park attractions"</a><br>
+      <a href="bios/markandersen.php">Mark Andersen, Walt Disney Imagineering</a><br>
+          <em>1404 Siebel Center </em></td>
+  </tr>
+  <tr>
+    <td  bgcolor="#5a6257"><strong> 8:30p</strong></td>
+    <td colspan=4 bgcolor="#7c8479">
+      <a class="external" href="abstracts/sterling.php">"Shaping Things to Come"</a><br>
+      <a href="bios/sterling.php">Bruce Sterling, Wired Magazine and Bestselling Author</a><br>
+          <em>1404 Siebel Center </em> </td>
+  </tr>
+  <tr bordercolor="#8B9587" bgcolor="#8B9587">
+    <td colspan="5">&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#5a6257">
+      <p align=CENTER></td>
+    <td colspan=4 bgcolor="#5a6257"><strong>Sunday, October 24th, 2004</strong></td>
+  </tr>
+  <tr>
+    <td  bgcolor="#5a6257"><strong> 8:00a</strong></td>
+    <td colspan=4 bgcolor="#7c8479">
+      Breakfast from Bagelmen's Bakery<em><br>
+        Siebel Center Atrium</em> </td>
+  </tr>
+  <tr>
+    <td  bgcolor="#5a6257"><strong> 9:00a</strong></td>
+    <td colspan=4 bgcolor="#7c8479">
+      <a class="external" href="abstracts/thaler.php">"The Last, Unanticipated, and Politically Incorrect Step Toward Genuine Machine Intelligence"</a><br>
+      <a href="bios/thaler.php">Stephen Thaler, Imagination Engines</a><br>
+        <em>1404 Siebel Center </em> </td>
+  </tr>
+  <tr>
+    <td width="16%" bgcolor="#5a6257"><strong> 10:30a</strong></td>
+    <td width="42%" colspan=2 bgcolor="#7c8479">
+      </a><a href="bios/stathakopoulos.php">George Stathakopoulos, Microsoft</a> <br>
+        <em>1404 Siebel Center</em></td>
+    <td width="42%" colspan=2 bgcolor="#7c8479">
+       <a class="external" href="abstracts/kuhn.php">"Software Freedom After SCO: GPL and the Evolving Free Software Ecosystem"</a><br>
+       <a href="bios/kuhn.php">Brad Kuhn, Free Software Foundation</a><br>
+       <em>1320 Digital Computer Lab</em></td>
+  </tr>
+  <tr>
+    <td  bgcolor="#5a6257"><strong>noon</strong></td>
+    <td colspan=4 bgcolor="#7c8479">Lunch from Za's Italian Cafe <br>
+            <em>Siebel Center Atrium</em> </td>
+  </tr>
+  <tr>
+    <td  bgcolor="#5a6257"><strong> 1:00p</strong></td>
+    <td colspan=4 bgcolor="#7c8479">
+      <a class="external" href="abstracts/zimmermann.php">"A perfectly good hour wasted with Phil Zimmermann"</a><br>
+      <a href="bios/zimmermann.php">Phil Zimmermann, Creator of Pretty Good Privacy (PGP)</a><br>
+        <em>1404 Siebel Center </em> </td>
+  </tr>
+  <tr>
+    <td  bgcolor="#5a6257"><strong> 2:30p</strong></td>
+    <td colspan=4 bgcolor="#7c8479">
+      <a href="mechmania.php">MechMania X Final Showdown</a><br>
+          <em>1404 Siebel Center </em></td>
+  </tr>
+</table>
+-->
+
+</div>
+
+<?php include '_bottom.php'; ?>
